@@ -1,0 +1,63 @@
+.root {
+	-fx-disabled-opacity: 1.0;
+}
+
+.index-card {
+	-fx-skin: "de.makkiato.fx.ctrls.indexcard.IndexCardSkin";
+}
+
+.index-card-front-rect {
+	-fx-fill: rgb(255,231,84);
+	-fx-stroke: white;
+	-fx-stroke-width: 2;
+}
+
+.index-card-back-rect {
+	-fx-fill: rgb(104,168,213);
+	-fx-stroke: white;
+	-fx-stroke-width: 2;
+}
+
+.index-card-front-top-line {
+	-fx-stroke: rgb(255,6,21);
+	-fx-stroke-width: 1;
+}
+
+.index-card-back-top-line {
+	-fx-stroke: rgb(255,6,21);
+	-fx-stroke-width: 1;
+}
+
+.index-card-front-line {
+	-fx-stroke: rgb(17,18,181);
+	-fx-stroke-width: 1;
+}
+
+.index-card-back-line {
+	-fx-stroke: rgb(17,18,181);
+	-fx-stroke-width: 1;
+}
+
+.index-card-front-header:disabled {
+	-fx-alignment: baseline-center;
+	-fx-background-color: transparent;
+}
+
+.index-card-back-header:disabled {
+	-fx-alignment: baseline-center;
+	-fx-background-color: transparent;
+}
+
+.index-card-front-text:disabled {
+	-fx-text-fill: black;
+	-fx-opacity: 1;
+	-fx-background-color: transparent;
+}
+
+.index-card-back-text:disabled  {
+	-fx-text-fill: black;
+	-fx-opacity: 1;
+	-fx-background-color: transparent;
+}
+
+
